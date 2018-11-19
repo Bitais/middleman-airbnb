@@ -29,6 +29,14 @@ title: Le Wagon - Home Page
           <div class="card-description">
             <h3><%= flat.name %></h3>
             <p><%= flat.description %></p>
+            <p class="rating">
+              <% flat.rating.times do %>
+                <i class="fas fa-star" style="color: #FFDE33"></i>
+              <% end %>
+              <% (5-flat.rating).times do %>
+                <i class="fas fa-star" style="color: #DCDEE0"></i>
+              <% end %>
+            </p>
           </div>
           <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{owner}", class:"card-user" %>
           <%= link_to "", "flats/#{owner}.html", class: "card-link" %>

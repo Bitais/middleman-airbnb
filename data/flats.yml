@@ -1,19 +1,19 @@
-ssaunier:
-  name: "Sebastien's home"
+Bitais:
+  name: "Bitais's home"
   description: "Charming room in Montmartre"
   city_name: "Paris, France"
   city_slug: "paris"
   wifi: false
   rating: 4
-papillard:
-  name: "Boris' home"
+fcustodio90:
+  name: "Filipe' home"
   description: Small flat in Tokyo
   city_name: "Tokyo, Japan"
   city_slug: "tokyo"
   wifi: true
   rating: 3
-monsieurpaillard:
-  name: Romain's home
+carolinalemos:
+  name: Carolina's home
   description: Nice flat in Piccadilly
   city_name: "London, UK"
   city_slug: "london"
